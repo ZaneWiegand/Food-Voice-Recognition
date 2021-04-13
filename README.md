@@ -83,7 +83,7 @@ folds = sub_dirs = np.array(['aloe', 'burger', 'cabbage', 'candied_fruits', 'car
 temp = extract_features(parent_dir, sub_dirs, max_file=100)
 ```
 
-![6.jpg](assets/20210413101648-aqxfuft-6.jpg)
+![1.jpg](https://github.com/Cocytus-Leon/FoodVoiceRecognition_1/blob/main/20210413101648-aqxfuft-6.jpg)
 
 #### 规整数据
 
