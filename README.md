@@ -160,7 +160,7 @@ model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accur
 model.summary()
 ```
 
-![7.jpg](assets/20210413103835-rggqh9s-7.jpg)
+![2.jpg](https://github.com/Cocytus-Leon/FoodVoiceRecognition_1/blob/main/20210413103835-rggqh9s-7.jpg)
 
 #### CNN的训练
 
@@ -170,7 +170,7 @@ model.summary()
 model.fit(X_train, Y_train, epochs=20, batch_size=15, validation_data=(X_test, Y_test))
 ```
 
-![8.jpg](assets/20210413104219-8owurbv-8.jpg)
+![3.jpg](https://github.com/Cocytus-Leon/FoodVoiceRecognition_1/blob/main/20210413104219-8owurbv-8.jpg)
 
 CNN网络训练好后，就可以用于分类预测了
 
@@ -201,7 +201,7 @@ def extract_features(test_dir, file_ext="*.wav"):
 X_test = extract_features('./test_a/')
 ```
 
-![9.jpg](assets/20210413110154-caf9rni-9.jpg)
+![4.jpg](https://github.com/Cocytus-Leon/FoodVoiceRecognition_1/blob/main/20210413110154-caf9rni-9.jpg)
 
 #### 进行预测
 
