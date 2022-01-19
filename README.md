@@ -1,4 +1,4 @@
-# FoodVoiceRecognition_1
+# FoodVoiceRecognition
 本文通用天池提供的20种不同种类的食物声音，通过对声音特征的提取，采用CNN架构，利用已标记的数据训练后，实现对食物声音种类进行预测
 
 ### 导入API
